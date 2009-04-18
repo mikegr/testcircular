@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Export-Package: org.glucore.bundle1.use;uses:="org.glucore.bundle1.off
+ er,org.glucore.bundle2.offer",org.glucore.bundle1.offer
+Built-By: mike
+Tool: Bnd-0.0.255
+Bundle-Name: org.glucore.test-recursive.myProject.bundle1 [org.glucore
+ .test-recursion]
+Created-By: Apache Maven Bundle Plugin
+Bundle-Version: 1.0.0.SNAPSHOT
+Build-Jdk: 1.6.0_11
+Bnd-LastModified: 1239999798018
+Bundle-ManifestVersion: 2
+Bundle-Description: Generated using Pax-Construct
+Import-Package: org.glucore.bundle1.offer,org.glucore.bundle1.use,org.
+ glucore.bundle2.offer
+Bundle-SymbolicName: org.glucore.test-recursive.myProject.bundle1
+

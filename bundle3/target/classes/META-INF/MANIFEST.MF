@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Private-Package: org.glucore.internal
+Built-By: mike
+Tool: Bnd-0.0.255
+Bundle-Name: org.glucore.test-recursive.myProject.bundle3 [org.glucore
+ .test-recursion]
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_11
+Bundle-Version: 1.0.0.SNAPSHOT
+Bnd-LastModified: 1239984993754
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.glucore.internal.ExampleActivator
+Bundle-Description: Generated using Pax-Construct
+Import-Package: org.glucore.bundle1.use,org.glucore.bundle2.use,org.os
+ gi.framework
+Bundle-SymbolicName: org.glucore.test-recursive.myProject.bundle3
+
